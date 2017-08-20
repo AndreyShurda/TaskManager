@@ -87,6 +87,20 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/displaytag/displaytag -->
+        <dependency>
+            <groupId>displaytag</groupId>
+            <artifactId>displaytag</artifactId>
+            <version>1.2</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.webjars.bower/jquery-sortable -->
+        <dependency>
+            <groupId>org.webjars.bower</groupId>
+            <artifactId>jquery-sortable</artifactId>
+            <version>0.9.13</version>
+        </dependency>
+
     </dependencies>
     <build>
         <plugins>

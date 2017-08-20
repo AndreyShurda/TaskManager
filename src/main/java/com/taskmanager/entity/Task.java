@@ -15,6 +15,8 @@ public class Task implements Serializable {
     private Long id;
     private String name;
     private String email;
+
+    @Column(columnDefinition = "TEXT")
     private String comment;
     @Lob
     private byte[] logo;
