@@ -19,7 +19,7 @@ public class TaskController {
     @Autowired
     private TaskService taskService;
 
-    @RequestMapping(value = "tasks", method = RequestMethod.GET)
+    @RequestMapping(value = {"/","tasks"}, method = RequestMethod.GET)
     public String list(Model model) {
         Iterable<Task> tasks = taskService.listTasks();
         model.addAttribute("tasks", tasks);
