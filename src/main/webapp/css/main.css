@@ -70,12 +70,12 @@ img.img_sm{
 }
 
 .field_to_order {
-    color: #a58067;
+    color: #2954a5;
     cursor: pointer;
 }
 
 .field_to_order span { margin-left: 6px;}
-.field_to_order span.up::before     { content: "\e113"; }
+.field_to_order span.up::before { content: "\e113"; }
 .field_to_order span::before { content: "\e114"; }
 
 

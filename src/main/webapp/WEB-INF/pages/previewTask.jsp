@@ -1,8 +1,8 @@
 <!-- Trigger the modal with a button -->
-<button type="button" id="button_Preview_Modal" class="btn btn-info btn-lg" data-toggle="modal"
-        data-target="#myModal">Open
-  Modal
-</button>
+<%--<button type="button" id="button_Preview_Modal" class="btn btn-info btn-lg" data-toggle="modal"--%>
+        <%--data-target="#myModal">Open--%>
+  <%--Modal--%>
+<%--</button>--%>
 
 <!-- Modal -->
 <div id="myModal" class="modal fade" role="dialog">

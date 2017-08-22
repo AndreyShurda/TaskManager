@@ -21,16 +21,10 @@ public class Task implements Serializable {
     @Lob
     private byte[] logo;
     private TaskStatus taskStatus;
-//    private transient String base64;
 
     public String getImage() {
         return Base64.encode(this.logo);
     }
-
-//    public void setBase64(String base64) {
-//        this.base64 = base64;
-//    }
-
 
     public Long getId() {
         return id;
